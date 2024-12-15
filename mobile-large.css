@@ -1,0 +1,26 @@
+/* body {
+  background-color: yellow;
+} */
+
+.section-4-header,
+.section-5-header {
+  margin-inline-start: 3rem;
+  margin-inline-end: 3rem;
+}
+.sec-5-fig-container {
+  column-gap: 0;
+}
+.sec-5-icon-container {
+  width: 80px;
+  height: 80px;
+}
+.testimony {
+ margin-inline-start: 0.5rem;
+ margin-inline-end: 0.5rem;
+}
+.offices-p,
+.information-p {
+  margin-inline-start: 0.5rem;
+  margin-inline-end: 0.5rem;
+}
+ 
