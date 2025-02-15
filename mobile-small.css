@@ -36,6 +36,9 @@ header {
   background: linear-gradient(to right, #fff, #1cbbb4);
   -webkit-background-clip: text;
   color: transparent;
+
+  transform: scale(0);
+  animation: zoom-in-1s 1.5s ease forwards;
 } 
 .nav-container {
   width: 100%;
@@ -53,6 +56,9 @@ ul li a {
   color: #fff;
   line-height: 2.6rem;
   font-size: 0.9rem;
+    
+  transform: scale(0);
+  animation: zoom-in-1s 1.5s ease forwards;
 }
 ul li a:hover {
   color: #76dad5;
@@ -120,6 +126,8 @@ li {
   margin: auto;
   width: 10ch;
   padding-top: 2.3rem;
+  transform: scale(0);
+  animation: zoom-in-1s 1.5s ease forwards;
 }
 .freelancer-span {
   background: linear-gradient(to right, #fff, #1cbbb4);
@@ -129,6 +137,8 @@ li {
 .hero-p {
   color: #fff;
   text-align: center;
+  transform: scale(0);
+  animation: zoom-in-1s 1.5s ease forwards;
 }
 .btn-container {
   display: flex;
@@ -141,6 +151,8 @@ li {
   height: 40px;
   border: none;
   transition: 0.4s;
+  transform: scale(0);
+  animation: zoom-in-1s 1.5s ease forwards;
 }
 .about-btn {
   /* background-color: #ff45fa; */
@@ -163,7 +175,15 @@ li {
 .hero-image {
   width: 100%;
   margin-top: 2rem;
+  transform: scale(0);
+  animation: zoom-in-1s 2.5s ease forwards;
 }
+
+@keyframes zoom-in-1s {
+  100% {
+  transform: scale(1);
+  }
+ }
 /* section 2 */
 .section-2 {
   padding-bottom: 4rem;
@@ -224,6 +244,9 @@ li {
 }
 .section-4-img {
   width: 100%;
+
+  transform: scale(0);
+  animation: zoom-in-1s 1.5s ease-out forwards;
 }
 .section-4-header {
   text-align: center;
@@ -232,6 +255,9 @@ li {
 }
 .section-4-p {
   text-align: center;
+ 
+  transform: scale(0);
+  animation: zoom-in-1s 1.5s ease forwards;
 }
 /* section 5 */
 .section-5 {
@@ -276,6 +302,9 @@ li {
 }
 .sec-5-img {
   width: 100%;
+    
+  transform: scale(0);
+  animation: zoom-in-1s 2s ease forwards;
 }
 /* section 6 */
 .section-6 {
