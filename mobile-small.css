@@ -153,6 +153,8 @@ li {
   transition: 0.4s;
   transform: scale(0);
   animation: zoom-in-1s 1.5s ease forwards;
+  font-size: 1rem;
+  border-radius: 10px;
 }
 .about-btn {
   /* background-color: #ff45fa; */
